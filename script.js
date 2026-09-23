@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
-	let arr=str.split(" ")
-	console.log(arr[0])
+	let arr=s.split(" ")
+	return arr[0]
 
 	if(s==''){
 		return ''
@@ -10,5 +10,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-// const s = prompt("Enter String:");
-// alert(firstWord(s));
+const s = prompt("Enter String:");
+alert(firstWord(s));
